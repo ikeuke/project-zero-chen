@@ -20,7 +20,9 @@ For medium to advance software engineers the game is not complext to build
 
 but this game is to represent how small beginnings can grow into momentus 
 
-potential. The point is everyone starts somewhere. Never feel discouraged. 
+potential. The point is everyone starts somewhere. Never 
+
+feel discouraged. 
 
 
 
