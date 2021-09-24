@@ -22,7 +22,7 @@ but this game is to represent how small beginnings can grow into momentus
 
 potential. The point is everyone starts somewhere. Never feel discouraged. 
 
-Aim high and code. 
+
 
 
 ### User Stories/game logic
