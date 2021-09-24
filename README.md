@@ -66,7 +66,7 @@ the user will be told they are incorrect and can try again by resetting the
 game. 
  - png files included in folder
 
-commit update 
+commit update - 
 
 ### Conclusion
 This has met my requirements for my  MVP (minimum viable product)
