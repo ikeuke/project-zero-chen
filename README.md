@@ -1,72 +1,118 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style.css"/>
 
-### Project 0 : HARDWARE HARDBALL
+  <!-- <script src="project_zero/jquery-3.2.1.min.js"></script> -->
+  <script
+ 	src="https://code.jquery.com/jquery-3.2.1.min.js"
+ 	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ 	crossorigin="anonymous"
+></script>
+  <!-- Main JS -->
+  <script type="text/javascript" src="scripts/app.js" defer ></script>
+  <title>Document</title>
+</head>
+<body>
+  
+  <header>
+    
+    <h1>
+      HARDWARE HARDBALL
+    </h1>
 
-A game that tests the knowledge the players knowledge of hardware ands its terms and labels. 
+ <hr>
+ <br>
+ <br>
+ <br>
+    
 
+    <!-- <div class="enter"></div> No longer using input type text
+    <form>
+    <input type="text" id='liy'><br>
+    <input type="text" id='2'><br>
+    <input type="text" id='3'><br>
+    <input type="text" id='4'><br>
+    <input type="text" id='5'><br>
+    <input type="text" id='6'><br>
+    <input type="text" id='7'><br>
+    <input type="text" id='8'><br>
+    <input type="text" id='9'><br>
+    <input type="text" id='10'><br>
+    <input type="text" id='11'><br>
+    <input type="text" id='12'><br>
+  </form> -->
+ <button id='btn'>Restart</button>
 
-Basics: Player will start the game where they are presented an image of computer hardware. They will  
+ <br>
+ <br>
+ <br>
+ <br>
 
-click the image and must type the name of the item to get credit. 
-
-
-This game was built as the first project for a software engineering course taken at General Assembly.
-
-This game was built by an an introductory level junior software developer 
-
-with 9 nine days of coding knowledge. Javascript was built in 9 days . 
-
-For medium to advance software engineers the game is not complext to build 
-
-but this game is to represent how small beginnings can grow into momentus 
-
-potential. The point is everyone starts somewhere. Never feel discouraged. 
-
-
-
-
-### User Stories/game logic
-This custom game can and will test the understanding of hardware terminology 
-
-from the viewpoint of its players. Every tool is essential , and understanding
-
-the fundamentals, or at least identification, of 
-
-
-hardware is just as  essential. 
-
-
-### setup 
-
-open up folder and read over the code . install the base 
-
-code and functions. Play game. 
-
-
-
-### WIREFRAME:
-
-
-
-The game has been setup with a simple display of the title, challenge, and 
-
-
-directions. Under the directions, images are displayed which the user will 
-
-
-click and a prompt will appear requesting the users input. If the user gets 
-
-
-the answer correct they will be notified and it will keep track of it, if not
-
-
-the user will be told they are incorrect and can try again by resetting the 
-
-
-game. 
- - png files included in folder
-
-commit update
-
-### Conclusion
-This has met my requirements for my  MVP (minimum viable product)
+ <h2>CLICK ON A PICTURE TO ANSWER</h2>
+    
+  </header>
+  
+  <nav>
+    
+    
+<!--     <div class="wordbank"> //excluded word bank to add moderate complexity
+    <ul>
+        <li >MOTHERBOARD</li>
+        <li>POWER SUPPLY UNIT</li>
+        <li>RAM</li>
+        <li>PROCESSOR</li>
+        <li>DRIVE</li>
+        <li>HEATSINK</li>
+       
+        
+        
+      </ul>
+      
+     <ul >
+        <li>MONITOR</li>
+        <li>MOUSE</li>
+        <li>KEYBOARD</li>
+        <li>CASE</li>
+        <li>GRAPHIC PROCESSING UNIT</li>
+        <li>COOLER</li>
+        
+    </ul>
+    </div>
+    <h2>Use the word bank above to match to term with the computer hardware</h2> -->
+   </nav>
+  
+  <main>
+    
+    
+    
+    
+    <div class="img">
+      
+ <div id="item1" onclick="hell(1)" ></div>
+<div id="item2" onclick="hell(2)"></div>
+<div id="item3"onclick="hell(3)"></div>
+<div id="item4"onclick="hell(4)"> </div>
+<div id="item5"onclick="hell(5)"></div>
+<div id="item6"onclick="hell(6)"> </div>
+<div id="item7"onclick="hell(7)"></div>
+<div id="item8"onclick="hell(8)"></div>
+<div id="item9"onclick="hell(9)"></div>
+<div id="item10"onclick="hell(10)"></div>
+<div id="item11"onclick="hell(11)"></div>
+<div id="item12"onclick="hell(12)"></div>
+      
+    </div>
+    
+  </main>
+  
+  
+   	
+</body>
+</html>
