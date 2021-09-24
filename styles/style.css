@@ -1,0 +1,164 @@
+body {
+  font-family: calibri, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: black;
+  /* background: url("https://c4.wallpaperflare.com/wallpaper/403/14/483/minimal-keep-it-simple-wallpaper-preview.jpg"); */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+}
+#btn {
+  transition-duration: 0.4s;
+  text-align: center;
+}
+
+#btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+input {
+  font-size: 24px;
+  }
+
+div {
+  height: 700px;
+  width: 750px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+  transition: 1s ease-in-out;
+}
+div:hover{
+  height: 900px;
+  width: 900px;
+}
+h1 {
+  font-family: 'Electrolize', cursive;
+  
+  font-size: 80px;
+  color: gold;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin: 0px 0 70px 0;
+  font-size: 36px;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 180px;
+}
+
+.show-description small {
+  opacity: 0.5;
+}
+
+/*   .wordbank {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ border: 7px solid blue;
+grid-gap: 20px;
+font-family:"Roboto";
+  font-weight: bold;
+font-size:24px;
+background: white;
+   opacity: 0.5;
+} */
+
+#item1{
+  background-image: url("https://www.corsair.com/medias/sys_master/images/images/h5f/h10/9109819457566/-CAFA70-Gallery-a70-01.png");
+}
+#item2{
+  background-image: url("https://images.evga.com/products/gallery/png/10G-P5-3895-KR_LG_1.png");
+}
+#item3{
+  background-image: url("https://static.acer.com/up/Resource/Acer/Monitors/R0/Images/20150617/R220HQ_sku_main.png");
+}
+#item4{
+  background-image: url(" https://www.corsair.com/medias/sys_master/images/images/h9a/h1f/9112563056670/-CH-9109012-NA-Gallery-K70-RGB-MK2-01.png");
+}
+#item5{
+  background-image: url(" https://www.corsair.com/us/en/medias/sys_master/images/images/h45/h02/9582812561438/base-4000d-config/Gallery/4000D_BLACK_01/-base-4000d-config-Gallery-4000D-BLACK-01.png_1200Wx1200H");
+}
+#item6{
+  background-image: url("https://www.corsair.com/medias/sys_master/images/images/h33/h98/9123773874206/-CH-9309011-NA-Gallery-M65-RGB-ELITE-BLK-01.png ");
+}
+#item7{
+  background-image: url(" https://www.corsair.com/us/en/medias/sys_master/images/images/hd3/h25/9562601717790/base-cxf-rgb-blk-psu-2020-config/Gallery/CX750F_RGB_BLACK_01/-base-cxf-rgb-blk-psu-2020-config-Gallery-CX750F-RGB-BLACK-01.png_1200Wx1200H");
+}
+#item8{
+  background-image: url("https://www.corsair.com/us/en/medias/sys_master/images/images/hd4/h6e/9582790082590/base-icue-elite-cooler-config/Gallery/H100i_ELITE_CAPELLIX_01/-base-icue-elite-cooler-config-Gallery-H100i-ELITE-CAPELLIX-01.png_1200Wx1200H ");
+}
+#item9{
+  background-image: url("https://www.corsair.com/us/en/medias/sys_master/images/images/h3d/h81/9568425312286/CMT32GX4M2Z3600C18/Gallery/DOMINATOR_PLAT_RGB_01/-CMT32GX4M2Z3600C18-Gallery-DOMINATOR-PLAT-RGB-01.png_1200Wx1200H ");
+}
+#item10{
+  background-image: url("https://www.nicepng.com/png/full/980-9804637_2200-pcie-nvme-ssd-micron-2200.png ");
+}
+#item11{
+  background-image: url("http://pngimg.com/uploads/cpu/cpu_PNG7.png");
+}
+#item12{
+  background-image: url("https://www.pngkey.com/png/full/229-2297997_asus-lanza-la-placa-base-z97-pro-gamer.png");
+}
+
+.price {
+  float: right;
+  
+  
+  @media (max-width: 750px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 26px;
+  }
+}
+}
+
+
+
+
+
+
+
